@@ -10,8 +10,20 @@
 
 <body>
   <h1 id="level-title">Press A Key to Start</h1>
+  <p id="game-help">Don't know how to play? Click me!</p>
+  <div id="game-instruction">
+    每关系统给出一个新的亮灯颜色，玩家需要记住从第一关开始亮灯的颜色，并按顺序点击相应颜色按钮。比如：
+    <ul>
+      <li>Level 1：电脑给出：红灯；玩家需点击：红灯。</li>
+      <li>Level 2：电脑给出：绿灯；玩家需点击：红灯，绿灯。</li>
+      <li>Level 3：电脑给出：红灯；玩家需点击：红灯，绿灯，红灯。</li>
+      <li>……</li>
+    </ul>
+    依此类推，当玩家点击错误的按钮时游戏结束。
+    <div type="button" id="close-instruction">我知道了！</div>
+  </div>
   <div class="container">
-    <div lass="row">
+    <div class="row">
 
       <div type="button" id="green" class="btn green">
 
